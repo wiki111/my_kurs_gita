@@ -2,4 +2,4 @@
 	followTags = true
 [alias]
 	ll = !git log --oneline --graph
-	goto = "!f() {git reset; git clean -fd; git checkout $1}; f" 
+	goto = "!f() { git reset; git clean -fd; git checkout $1; }; f" 
